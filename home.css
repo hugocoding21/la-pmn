@@ -32,6 +32,7 @@
 }
 
 .part2 li {
+  text-align: center;
   background: #ffffff;
   border-radius: 5px;
   padding: 6px 20px;
@@ -40,6 +41,10 @@
   font-size: 15px;
   font-weight: bold;
   line-height: 1.5;
+}
+.part2 li:hover {
+  background: #cdd729;
+  transition-delay: 80ms;
 }
 .part1 {
   width: 100%;
@@ -54,7 +59,8 @@
   font-weight: lighter;
 }
 .navbar .part1 li:hover {
-  color: greenyellow;
+  color: #cdd729;
+  transition-delay: 80ms;
 }
 
 li {
