@@ -13,11 +13,11 @@
   width: 100vw;
   background-color: #3b0375;
   padding-block: 15px;
-  height: 12vh;
+  min-height: 12vh;
 }
 #logo {
   width: 20%;
-  margin-left: 2%;
+  margin: 0% 2%;
   cursor: pointer;
 }
 #img-home1 {
@@ -49,8 +49,10 @@
   transition-delay: 80ms;
 }
 .part1 {
-  width: 100%;
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 7vh;
 }
 .navbar .part1 li {
   display: inline;
@@ -129,7 +131,7 @@ li {
   right: 0;
   background: #cdd729;
   padding: 10px;
-  width: 15%;
+  width: fit-content;
   overflow: hidden;
   font-size: 25px;
   font-weight: bold;
