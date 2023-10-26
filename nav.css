@@ -1,0 +1,35 @@
+.my-button {
+    background-color: transparent;
+    border: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 32px;
+    float: left;
+    line-height: 70px;
+    display: none;
+}
+@media (max-width: 1400px) {
+    .part1 {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .part1.show {
+        display: flex;
+    }
+    
+    .my-button {
+      display: block;
+      float: left !important;
+    }
+
+    #list {
+        flex-direction: row-reverse;
+    }
+
+    .part2 {
+        display: flex;
+    }
+  }
