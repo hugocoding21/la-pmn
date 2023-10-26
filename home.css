@@ -21,7 +21,8 @@
   cursor: pointer;
 }
 #img-home1 {
-  width: 100vw;
+  max-height: 70vh;
+  max-width: 100vw;
 }
 #list {
   display: flex;
@@ -157,4 +158,45 @@ li {
   padding-left: 17px;
   cursor: pointer;
   color: #ffffff;
+}
+
+@media screen and (max-width: 750px) {
+  .carousel-text {
+    display: flex;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .carousel-text-2 {
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+    right: 0;
+    background: #cdd729;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .carousel-arrows {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
 }
