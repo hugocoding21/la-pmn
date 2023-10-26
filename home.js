@@ -20,7 +20,3 @@ const nav = document.getElementsByClassName("part1");
 button.addEventListener('click', () => {
   nav.classList.toggle('show');
 });
-
-button.addEventListener('click', function() {
-  document.body.style.backgroundColor = 'red';
-}
